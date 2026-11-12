@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Cresca · Guía paso a paso para publicar la web y el panel</title>
+<style>
+:root{--bg:#F4F2EC;--card:#FFFFFF;--line:#D6D2C8;--text:#0B0F14;--muted:#4A515D;--accent:#C6F432;--accent-text:#3F5600;--warn:#8C5A00;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root{--bg:#0B0F14;--card:#18202B;--line:#28313D;--text:#F4F2EC;--muted:#A7AFBB;--accent-text:#C6F432;--warn:#F2B544;color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 'Segoe UI',system-ui,-apple-system,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.08;letter-spacing:-.02em;margin:0 0 10px}
+h2{font-size:24px;margin:0 0 6px;letter-spacing:-.01em}
+.lead{color:var(--muted);font-size:18px;margin:0 0 26px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.toc a{font-weight:700;font-size:14px;padding:7px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);text-decoration:none;color:var(--text)}
+section{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;margin-bottom:18px}
+.n{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:10px;background:var(--accent);color:#0B0F14;font-weight:800;margin-right:10px}
+.time{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:12px}
+ol{padding-left:22px;margin:10px 0}
+li{margin-bottom:8px}
+code,.k{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
+.tip,.alert{border-radius:14px;padding:12px 14px;margin-top:12px;font-size:15px}
+.tip{background:var(--bg);border-left:5px solid var(--accent)}
+.alert{background:var(--bg);border-left:5px solid var(--warn)}
+table{width:100%;border-collapse:collapse;font-size:15px;margin-top:10px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-size:13px}
+.tw{overflow-x:auto}
+a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Cómo publicar la web y el panel de Cresca</h1>
+<p class="lead">Unos 15 minutos, una sola vez. Todo es gratis y se hace desde el navegador: no necesitas programar ni tarjeta de crédito.</p>
+<nav class="toc"><a href="#p1">1. GitHub</a><a href="#p2">2. Subir archivos</a><a href="#p3">3. Vercel</a><a href="#p7">4. Token de GitHub</a><a href="#p8">5. Conectar el panel</a><a href="#p9">6. Prueba final</a><a href="#problemas">Si algo falla</a></nav>
+
+<section id="p1"><h2><span class="n">1</span>Crear el repositorio en GitHub</h2><p class="time">3 minutos</p>
+<p>Un repositorio es una carpeta en internet donde vive tu web. El panel guarda ahí los cambios.</p>
+<ol>
+<li>Entra a <b>github.com</b> e inicia sesión. Si no tienes cuenta, pulsa <b>Sign up</b> y créala con tu correo.</li>
+<li>Arriba a la derecha pulsa el botón <b>+</b> y elige <b>New repository</b>.</li>
+<li>En <b>Repository name</b> escribe <code>cresca-web</code>.</li>
+<li>Deja marcado <b>Public</b> (público). Tu web la publica Vercel y es visible para todos, sea Public o Private: esa opción solo decide quién ve el código en GitHub. El panel tiene su propia contraseña.</li>
+<li>Pulsa <b>Create repository</b>.</li>
+</ol>
+</section>
+
+<section id="p2"><h2><span class="n">2</span>Subir los archivos</h2><p class="time">3 minutos</p>
+<ol>
+<li>Descomprime el zip en tu computadora. Verás la carpeta <code>cresca-web</code>.</li>
+<li>En la página del repositorio recién creado, pulsa el enlace <b>uploading an existing file</b>.</li>
+<li>Abre la carpeta <code>cresca-web</code> en tu computadora, selecciona <b>todo lo que hay dentro</b> (incluida la carpeta <code>api</code>) y arrástralo a la página de GitHub.</li>
+<li>Espera a que termine de cargar y pulsa <b>Commit changes</b>.</li>
+</ol>
+<div class="tip">Sube el <b>contenido</b> de la carpeta, no la carpeta entera: en la raíz del repositorio deben quedar <code>index.html</code>, <code>panel.html</code>, <code>content.json</code>, <code>vercel.json</code> y la carpeta <code>api</code>.</div>
+</section>
+
+<section id="p3"><h2><span class="n">3</span>Publicar en Vercel</h2><p class="time">3 minutos</p>
+<ol>
+<li>Entra a <b>vercel.com</b> y pulsa <b>Sign up</b> → <b>Continue with GitHub</b>. Acepta los permisos.</li>
+<li>Pulsa <b>Add New…</b> → <b>Project</b>.</li>
+<li>En la lista aparece <code>cresca-web</code>. Pulsa <b>Import</b>. Si no aparece, pulsa <b>Adjust GitHub App Permissions</b> y dale acceso a ese repositorio.</li>
+<li>En <b>Framework Preset</b> deja <b>Other</b>. No cambies nada más.</li>
+<li>Pulsa <b>Deploy</b>. En menos de un minuto verás confeti y tu web publicada, con una dirección como <code>cresca-web.vercel.app</code>.</li>
+</ol>
+<div class="tip">Más adelante puedes conectar tu propio dominio en Vercel → tu proyecto → <b>Settings</b> → <b>Domains</b>.</div>
+</section>
+
+<section id="p7"><h2><span class="n">4</span>Crear el token de GitHub (para que el panel pueda guardar)</h2><p class="time">4 minutos</p>
+<p>El token es un permiso que le das al panel para escribir <b>solo</b> en el repositorio <code>cresca-web</code>.</p>
+<ol>
+<li>En GitHub, pulsa tu foto (arriba a la derecha) → <b>Settings</b>.</li>
+<li>Al final del menú izquierdo pulsa <b>Developer settings</b>.</li>
+<li>Pulsa <b>Personal access tokens</b> → <b>Fine-grained tokens</b> → <b>Generate new token</b>.</li>
+<li><b>Token name:</b> <code>cresca-panel</code>. <b>Expiration:</b> elige 1 año (o <i>Custom</i> con la fecha que prefieras).</li>
+<li><b>Repository access:</b> marca <b>Only select repositories</b> y elige <code>cresca-web</code>.</li>
+<li>En <b>Permissions</b> → <b>Repository permissions</b>, busca <b>Contents</b> y cámbialo a <b>Read and write</b>. (<i>Metadata</i> queda en <i>Read-only</i> solo; está bien.)</li>
+<li>Baja y pulsa <b>Generate token</b>. Copia el token (empieza con <code>github_pat_</code>). <b>Solo se muestra una vez.</b></li>
+</ol>
+<div class="alert">Cuando el token venza, repite este paso y pega el nuevo en el panel.</div>
+</section>
+
+<section id="p8"><h2><span class="n">5</span>Conectar el panel</h2><p class="time">2 minutos</p>
+<ol>
+<li>Abre tu web, baja hasta el footer y pulsa <b>Panel</b> (o entra directo a <code>tu-web.vercel.app/panel.html</code>). Escribe la contraseña <code>1789</code>.</li>
+<li>Ve a <b>Ajustes</b> y completa:
+ <div class="tw"><table><tr><th>Campo</th><th>Qué poner</th></tr>
+ <tr><td>Usuario u organización</td><td>Tu usuario de GitHub (aparece en la dirección: github.com/<b>tu-usuario</b>)</td></tr>
+ <tr><td>Repositorio</td><td><code>cresca-web</code></td></tr>
+ <tr><td>Rama</td><td><code>main</code></td></tr>
+ <tr><td>Archivo</td><td><code>content.json</code></td></tr>
+ <tr><td>Token de GitHub</td><td>El token del paso 4</td></tr></table></div></li>
+<li>Pulsa <b>Cargar desde GitHub</b>. Debe aparecer «Contenido cargado desde GitHub».</li>
+<li>En la misma pantalla revisa el número de WhatsApp (<code>51995422760</code>) y el enlace de Cal.com.</li>
+</ol>
+<div class="tip">Estos datos se guardan solo en tu navegador. Si usas otra computadora, repite este paso.</div>
+</section>
+
+<section id="p9"><h2><span class="n">6</span>Prueba final</h2><p class="time">2 minutos</p>
+<ol>
+<li>En el panel, ve a <b>Portafolio</b>, edita un proyecto y cambia algo pequeño.</li>
+<li>Pulsa <b>Listo</b> y luego <b>Guardar y publicar</b>.</li>
+<li>Espera un minuto y recarga tu web: el cambio ya está publicado.</li>
+<li>En la web, llena el formulario «Hablemos»: se abre WhatsApp con el mensaje listo para enviarte.</li>
+</ol>
+</section>
+
+<section id="problemas"><h2>Si algo falla</h2>
+<div class="tw"><table><tr><th>Mensaje o síntoma</th><th>Solución</th></tr>
+<tr><td>«No se pudo conectar con GitHub»</td><td>Revisa usuario, repositorio y rama (<code>main</code>). Confirma que el token tiene <b>Contents: Read and write</b> y acceso a <code>cresca-web</code>.</td></tr>
+<tr><td>Traducir descripciones</td><td>En el editor del proyecto elige EN, PT o FR, pulsa <b>Traducir con Google (gratis)</b>, copia la traducción y pégala en el cuadro.</td></tr>
+<tr><td>Guardé pero la web no cambia</td><td>Espera 1 minuto y recarga. En Vercel → <b>Deployments</b> debe aparecer una publicación nueva por cada guardado.</td></tr>
+<tr><td>El PDF del pitch sale cortado o sin colores</td><td>En la ventana de impresión: destino <b>Guardar como PDF</b>, márgenes <b>Ninguno</b> y activa <b>Gráficos de fondo</b>. Funciona mejor en Chrome.</td></tr>
+<tr><td>No se abre WhatsApp</td><td>Revisa el número en Ajustes del panel (solo números, con código de país: <code>51995422760</code>).</td></tr>
+</table></div>
+</section>
+</div>
+</body>
+</html>

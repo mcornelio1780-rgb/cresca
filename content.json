@@ -1,0 +1,562 @@
+{
+ "version": 1,
+ "updated": "2026-11-12",
+ "settings": {
+  "contactEmail": "manyosa@limly.io",
+  "calUrl": "https://cal.com/michellanyosa/reuni-o",
+  "whatsapp": "51995422760"
+ },
+ "verticals": [
+  {
+   "key": "mineria",
+   "label": {
+    "es": "Minería y clima",
+    "en": "Mining and climate",
+    "pt": "Mineração e clima",
+    "fr": "Mines et climat"
+   },
+   "color": "#5CC184"
+  },
+  {
+   "key": "finanzas",
+   "label": {
+    "es": "Finanzas",
+    "en": "Finance",
+    "pt": "Finanças",
+    "fr": "Finance"
+   },
+   "color": "#2E5BFF"
+  },
+  {
+   "key": "ia",
+   "label": {
+    "es": "IA aplicada",
+    "en": "Applied AI",
+    "pt": "IA aplicada",
+    "fr": "IA appliquée"
+   },
+   "color": "#9B7BFF"
+  },
+  {
+   "key": "infra",
+   "label": {
+    "es": "Infraestructura de IA",
+    "en": "AI infrastructure",
+    "pt": "Infraestrutura de IA",
+    "fr": "Infrastructure de l’IA"
+   },
+   "color": "#2BC4B6"
+  },
+  {
+   "key": "gobierno",
+   "label": {
+    "es": "Gobierno y servicios públicos",
+    "en": "Government and public services",
+    "pt": "Governo e serviços públicos",
+    "fr": "Secteur public et services"
+   },
+   "color": "#F2B544"
+  },
+  {
+   "key": "salud",
+   "label": {
+    "es": "Salud",
+    "en": "Health",
+    "pt": "Saúde",
+    "fr": "Santé"
+   },
+   "color": "#FF6F91"
+  },
+  {
+   "key": "espacio",
+   "label": {
+    "es": "Espacio",
+    "en": "Space",
+    "pt": "Espaço",
+    "fr": "Espace"
+   },
+   "color": "#8FA8FF"
+  },
+  {
+   "key": "robotica",
+   "label": {
+    "es": "Robótica",
+    "en": "Robotics",
+    "pt": "Robótica",
+    "fr": "Robotique"
+   },
+   "color": "#FF7A45"
+  }
+ ],
+ "portfolio": [
+  {
+   "id": "pontar",
+   "name": "Pontar",
+   "vertical": "finanzas",
+   "bg": "#120B2E",
+   "fg": "#F4F1FF",
+   "accent": "#8B5CFF",
+   "short": {
+    "es": "Stablecoins para el día a día: cuenta en dólares digitales, envíos y tarjeta.",
+    "en": "Stablecoins for everyday life: a digital-dollar account, transfers and a card.",
+    "pt": "Stablecoins para o dia a dia: conta em dólares digitais, transferências e cartão.",
+    "fr": "Des stablecoins au quotidien : compte en dollars numériques, transferts et carte."
+   },
+   "long": {
+    "es": "Pontar lleva el dólar digital al día a día de freelancers y pymes de América Latina: una cuenta en dólares estables para cobrar, guardar y enviar dinero, con tarjeta para gastar. Opera con socios regulados y no custodia fondos.",
+    "en": "Pontar brings the digital dollar to the daily life of Latin American freelancers and SMEs: a stable-dollar account to get paid, save and send money, with a card to spend. It works with regulated partners and does not hold funds.",
+    "pt": "A Pontar leva o dólar digital ao dia a dia de freelancers e PMEs da América Latina: uma conta em dólares estáveis para receber, guardar e enviar dinheiro, com cartão para gastar. Opera com parceiros regulados e não custodia recursos.",
+    "fr": "Pontar apporte le dollar numérique au quotidien des freelances et PME d’Amérique latine : un compte en dollars stables pour encaisser, épargner et envoyer de l’argent, avec une carte pour payer. Pontar travaille avec des partenaires régulés et ne détient pas de fonds."
+   },
+   "url": "https://pontar.vercel.app/",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"4\" width=\"40\" height=\"40\" rx=\"12\" fill=\"#8B5CFF\"/><path d=\"M12 34 Q24 12 36 34\" fill=\"none\" stroke=\"#5EF0C0\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><path d=\"M12 34 H36\" stroke=\"#F4F1FF\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg>",
+   "word": "pontar",
+   "font": "'Manrope', sans-serif",
+   "visible": true,
+   "logoPending": false
+  },
+  {
+   "id": "kontu",
+   "name": "Kontu",
+   "vertical": "finanzas",
+   "bg": "#0A1433",
+   "fg": "#F6F7FB",
+   "accent": "#2E5BFF",
+   "short": {
+    "es": "Agentes de IA, contador colegiado y abogado en una sola membresía para pymes.",
+    "en": "AI agents, a certified accountant and a lawyer in one membership for SMEs.",
+    "pt": "Agentes de IA, contador e advogado numa só assinatura para PMEs.",
+    "fr": "Des agents IA, un expert-comptable et un avocat dans un seul abonnement pour les PME."
+   },
+   "long": {
+    "es": "Kontu responde las preguntas de tu negocio con agentes de IA conectados a tus datos, y suma un contador colegiado y un abogado que firman y responden. La IA prepara; una persona revisa cada declaración.",
+    "en": "Kontu answers your business questions with AI agents connected to your data, backed by a certified accountant and a lawyer who sign and take responsibility. AI prepares; a person reviews every filing.",
+    "pt": "A Kontu responde às perguntas do seu negócio com agentes de IA conectados aos seus dados, com um contador e um advogado que assinam e respondem. A IA prepara; uma pessoa revisa cada declaração.",
+    "fr": "Kontu répond aux questions de votre entreprise grâce à des agents IA connectés à vos données, avec un expert-comptable et un avocat qui signent et répondent. L’IA prépare ; une personne vérifie chaque déclaration."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"4\" y=\"4\" width=\"40\" height=\"40\" rx=\"12\" fill=\"#2E5BFF\"/><path d=\"M11 32 L19 24 L25 28 L35 17\" fill=\"none\" stroke=\"#FF8A3D\" stroke-width=\"4.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"36\" cy=\"16\" r=\"4\" fill=\"#FF8A3D\"/></svg>",
+   "word": "kontu",
+   "font": "'Bricolage Grotesque', sans-serif",
+   "visible": true,
+   "logoPending": false
+  },
+  {
+   "id": "brota",
+   "name": "Brota",
+   "vertical": "mineria",
+   "bg": "#1A242C",
+   "fg": "#EEF1EE",
+   "accent": "#5CC184",
+   "short": {
+    "es": "Monitoreo satelital mensual de relaves, pasivos ambientales y minas en cierre.",
+    "en": "Monthly satellite monitoring of tailings, environmental liabilities and mine closures.",
+    "pt": "Monitoramento mensal por satélite de rejeitos, passivos ambientais e minas em fechamento.",
+    "fr": "Suivi satellite mensuel des résidus miniers, passifs environnementaux et mines en fermeture."
+   },
+   "long": {
+    "es": "Brota usa imágenes satelitales abiertas para vigilar cada mes relaves, pasivos ambientales y minas en cierre, y entrega reportes listos para la autoridad. Detecta cambios en vegetación, agua y terreno antes de que se vuelvan un problema.",
+    "en": "Brota uses open satellite imagery to watch tailings, environmental liabilities and mine closures every month, and delivers regulator-ready reports. It spots changes in vegetation, water and terrain before they become a problem.",
+    "pt": "A Brota usa imagens de satélite abertas para monitorar todo mês rejeitos, passivos ambientais e minas em fechamento, e entrega relatórios prontos para a autoridade. Detecta mudanças em vegetação, água e terreno antes que virem um problema.",
+    "fr": "Brota utilise des images satellites ouvertes pour surveiller chaque mois les résidus, les passifs environnementaux et les mines en fermeture, et livre des rapports prêts pour l’autorité. Elle détecte les changements de végétation, d’eau et de terrain avant qu’ils ne deviennent un problème."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 197.5 64\"><g><rect fill=\"#2F8A55\" height=\"64\" rx=\"12\" width=\"64\"></rect><rect fill=\"#C8D9A0\" height=\"4\" rx=\"2\" width=\"40\" x=\"12\" y=\"49\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"29\" y=\"42\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"29\" y=\"35\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"29\" y=\"28\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"22\" y=\"28\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"15\" y=\"21\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"22\" y=\"21\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"36\" y=\"21\"></rect><rect fill=\"#C8D9A0\" height=\"6\" width=\"6\" x=\"43\" y=\"14\"></rect><rect fill=\"#FFFFFF\" height=\"6\" width=\"6\" x=\"36\" y=\"14\"></rect></g><path d=\"M37.78 1.28Q31.94 1.28 27.38 -1.43Q22.83 -4.14 19.99 -10.24L20.71 -10.36V0H6.92V-73.24H21.47V-42.16L20.52 -42.91Q23.24 -48.7 27.79 -51.36Q32.35 -54.02 38.02 -54.02Q44.69 -54.02 49.54 -50.71Q54.4 -47.41 57.04 -41.2Q59.67 -34.98 59.67 -26.26Q59.67 -17.6 57.01 -11.42Q54.35 -5.24 49.44 -1.98Q44.53 1.28 37.78 1.28ZM32.6 -9.74Q37.92 -9.74 41.09 -14.19Q44.26 -18.64 44.26 -26.57Q44.26 -34.37 41.18 -38.69Q38.1 -43.02 32.7 -43.02Q29.34 -43.02 26.62 -41.22Q23.9 -39.41 22.33 -35.73Q20.76 -32.05 20.76 -26.46Q20.76 -18.13 24.18 -13.94Q27.61 -9.74 32.6 -9.74Z M68.69 0V-52.73H82.74V-40.87L82.15 -42.41Q84.66 -48.29 89.19 -51.15Q93.73 -54.02 99.11 -54.02Q100.63 -54.02 102.19 -53.77Q103.76 -53.53 105.28 -52.94L104.18 -40.52Q101 -41.41 98.07 -41.41Q95.67 -41.41 93.07 -40.58Q90.46 -39.76 88.24 -37.67Q86.01 -35.59 84.62 -31.82Q83.23 -28.05 83.23 -22.18V0Z M137.12 1.28Q129.15 1.28 123.07 -2.23Q116.99 -5.74 113.59 -11.98Q110.18 -18.21 110.18 -26.38Q110.18 -34.55 113.59 -40.78Q116.99 -47 123.07 -50.51Q129.15 -54.02 137.11 -54.02Q145.11 -54.02 151.18 -50.51Q157.26 -47.01 160.68 -40.78Q164.1 -34.56 164.1 -26.37Q164.1 -18.19 160.68 -11.96Q157.27 -5.73 151.17 -2.22Q145.08 1.28 137.12 1.28ZM137.14 -9.44Q142.59 -9.44 145.73 -13.99Q148.88 -18.54 148.88 -26.37Q148.88 -34.21 145.73 -38.75Q142.58 -43.3 137.14 -43.3Q131.69 -43.3 128.55 -38.75Q125.4 -34.21 125.4 -26.37Q125.4 -18.52 128.55 -13.98Q131.7 -9.44 137.14 -9.44Z M188.57 0Q182.68 0 179.54 -2.85Q176.41 -5.71 176.41 -11.07V-42.07H168.87V-52.73H176.41V-63.09L190.96 -66.59V-52.73H200.69V-42.07H190.96V-13.38Q190.96 -11.75 191.42 -11.21Q191.88 -10.66 193.4 -10.66H201.45V0Z M225.51 1.25Q220.45 1.25 216.2 -0.51Q211.95 -2.28 209.38 -5.81Q206.82 -9.34 206.82 -14.6Q206.82 -20.27 210.11 -24.23Q213.4 -28.19 219.63 -30.27Q225.86 -32.34 234.72 -32.34H242.14L241.26 -31V-34.04Q241.26 -39.27 239.37 -41.82Q237.47 -44.36 233.07 -44.36Q228.85 -44.36 226.63 -42.14Q224.41 -39.92 223.91 -35.83L209.11 -38.39Q209.9 -42.78 212.86 -46.33Q215.82 -49.87 221.05 -51.97Q226.28 -54.07 233.9 -54.07Q240.87 -54.07 245.71 -51.84Q250.54 -49.62 253.06 -44.63Q255.58 -39.63 255.58 -31.3V-13.38Q255.58 -11.74 256.05 -11.2Q256.51 -10.66 258.02 -10.66H260.4V0H253.45Q247.78 0 244.81 -2.87Q241.84 -5.74 241.84 -11.07V-13.55L244.4 -12.59Q243.76 -10.49 242.52 -8.1Q241.29 -5.72 239.14 -3.59Q236.99 -1.46 233.66 -0.1Q230.32 1.25 225.51 1.25ZM229.69 -8.67Q233.11 -8.67 235.74 -10.25Q238.37 -11.83 239.88 -14.97Q241.39 -18.1 241.39 -22.78V-23.93H235.25Q230.04 -23.93 227.12 -22.56Q224.21 -21.2 223.04 -19.23Q221.87 -17.26 221.87 -15.37Q221.87 -13.89 222.57 -12.34Q223.27 -10.79 224.97 -9.73Q226.67 -8.67 229.69 -8.67Z\" fill=\"#FFFFFF\" transform=\"translate(82,47.00) scale(0.4310)\"></path></svg>",
+   "word": null,
+   "font": "",
+   "visible": true,
+   "logoPending": false
+  },
+  {
+   "id": "puntal",
+   "name": "Puntal",
+   "vertical": "mineria",
+   "bg": "#16181B",
+   "fg": "#F3F1EC",
+   "accent": "#FF5A1F",
+   "short": {
+    "es": "Inspecciones de sostenimiento que funcionan sin señal en mina subterránea.",
+    "en": "Ground-support inspections that work offline in underground mines.",
+    "pt": "Inspeções de sustentação que funcionam sem sinal na mina subterrânea.",
+    "fr": "Des inspections de soutènement qui fonctionnent sans réseau dans les mines souterraines."
+   },
+   "long": {
+    "es": "Puntal digitaliza las inspecciones de sostenimiento de los contratistas mineros: funciona sin señal bajo tierra, sincroniza al salir y arma un mapa de riesgo por labor. Menos papel, menos accidentes y evidencia lista para el cliente.",
+    "en": "Puntal digitizes ground-support inspections for mining contractors: it works offline underground, syncs on the surface and builds a risk map per heading. Less paper, fewer accidents and evidence ready for the client.",
+    "pt": "A Puntal digitaliza as inspeções de sustentação dos empreiteiros de mineração: funciona sem sinal no subsolo, sincroniza ao sair e monta um mapa de risco por frente. Menos papel, menos acidentes e evidência pronta para o cliente.",
+    "fr": "Puntal numérise les inspections de soutènement des sous-traitants miniers : l’outil fonctionne sans réseau sous terre, se synchronise en surface et dresse une carte des risques par chantier. Moins de papier, moins d’accidents et des preuves prêtes pour le client."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 318.1 64\"><path d=\"M8 6 H38 A16 16 0 0 1 38 38 H8 Z M22 32 V24 A6 6 0 0 1 34 24 V32 Z\" fill=\"#F3F1EC\" fill-rule=\"evenodd\"/><rect x=\"8\" y=\"42\" width=\"14\" height=\"16\" fill=\"#FF5A1F\"/><path transform=\"translate(70,47)\" d=\"M3.695356630375364 0.0V-30.067498120900144H26.900723738155975Q29.854519235149414 -30.067498120900144 32.07865812340561 -28.763627032844386Q34.30279701166181 -27.45975594478863 35.54107043207908 -25.156235764395042Q36.77934385249635 -22.852715584001455 36.77934385249635 -19.848234373734613Q36.77934385249635 -16.814890158072156 35.51920454286625 -14.47952137049016Q34.25906523323615 -12.144152582908163 32.01496090902879 -10.85216466608965Q29.770856584821427 -9.560176749271136 26.82086199435131 -9.560176749271136H12.600389486151602V0.0ZM12.600389486151602 -16.159831678206995H24.342436053662535Q26.318302432580175 -16.159831678206995 27.339671499180028 -17.109572738403088Q28.36104056577988 -18.059313798599185 28.36104056577988 -19.807149577128428Q28.36104056577988 -20.993175450983966 27.89822650799797 -21.803157230179114Q27.435412450216056 -22.61313900937426 26.54538137999141 -23.04049110066927Q25.655350309766764 -23.467843191964285 24.342436053662535 -23.467843191964285H12.600389486151602ZM60.017320175838194 0.5247813411078717Q54.066958306760206 0.5247813411078717 50.16960911875911 -1.2126066246811225Q46.27225993075802 -2.9499945904701166 44.35044258495809 -6.2355793321793005Q42.428625239158166 -9.521164073888484 42.428625239158166 -14.15577168367347V-30.067498120900144H51.33365809493441V-14.55695950255102Q51.33365809493441 -10.536475890579446 53.60297011661808 -8.317557910440962Q55.872282138301756 -6.098639930302478 60.017320175838194 -6.098639930302478Q64.18612455584912 -6.098639930302478 66.4554365775328 -8.317557910440962Q68.72474859921647 -10.536475890579446 68.72474859921647 -14.55695950255102V-30.067498120900144H77.62978145499271V-14.15577168367347Q77.62978145499271 -9.521164073888484 75.70796410919277 -6.2355793321793005Q73.78614676339285 -2.9499945904701166 69.88689712213011 -1.2126066246811225Q65.98764748086735 0.5247813411078717 60.017320175838194 0.5247813411078717ZM86.08077937090015 0.0V-30.067498120900144H94.04560034393222L109.63316070289724 -16.039035452350582Q110.03530942510933 -15.700583944515305 110.65611703944971 -15.08357723669825Q111.27692465379009 -14.466570528881194 111.95144676453171 -13.805832042638482Q112.62596887527333 -13.145093556395771 113.14314840333455 -12.611749498906706H113.54053531568879Q113.52056987973762 -13.383717884475217 113.49062172581087 -14.571138165087461Q113.46067357188412 -15.758558445699707 113.46067357188412 -16.680726699161806V-30.067498120900144H121.88941867483601V0.0H114.03202669460642L98.82852872175657 -13.72806293276239Q97.79036875911079 -14.651192089559038 96.64287935040088 -15.779196513985056Q95.49538994169097 -16.907200938411076 94.80328329992712 -17.595506673651602H94.44962816599855Q94.46959360194971 -17.003227211643587 94.48955903790088 -15.748308810131196Q94.50952447385205 -14.493390408618804 94.50952447385205 -13.036917194333089V0.0ZM140.88737700437318 0.0V-22.900290975765305H127.85814703671649V-30.067498120900144H162.82163982780614V-22.900290975765305H149.79240986014943V0.0ZM165.74626913265308 0.0 180.52857114385935 -30.067498120900144H190.42707128052118L205.20937329172745 0.0H195.5770647321429L193.304891353863 -4.818140146683673H177.1697015078353L174.9212944720299 0.0ZM180.150103350492 -11.337933331814869H190.3244895112063L187.5864701963375 -17.449022298651602Q187.4153439891582 -17.85877283391035 187.10684063524968 -18.608875330266034Q186.79833728134113 -19.358977826621718 186.46606758495813 -20.212227957589285Q186.1337978885751 -21.06547808855685 185.85334223533164 -21.79893560381742Q185.57288658208822 -22.532393119077987 185.4340894337646 -22.88508734967201H185.10800154883384Q184.78571457042642 -22.08175080858236 184.36598131719208 -21.039789939413264Q183.94624806395774 -19.99782907024417 183.55836341791183 -19.019565415451893Q183.17047877186593 -18.04130176065962 182.8881226653608 -17.429056862700435ZM210.77407383154159 0.0V-30.067498120900144H219.67910668731784V-7.16720714513484H238.98382550564872V0.0Z\" fill=\"#F3F1EC\"/></svg>",
+   "word": null,
+   "font": "",
+   "visible": true,
+   "logoPending": false
+  },
+  {
+   "id": "cateo",
+   "name": "cateo.",
+   "vertical": "mineria",
+   "bg": "#101B33",
+   "fg": "#F6F2EB",
+   "accent": "#F2B544",
+   "short": {
+    "es": "Fichas bilingües de concesiones mineras para inversionistas, en 3 días.",
+    "en": "Bilingual mining-concession reports for investors, in 3 days.",
+    "pt": "Fichas bilíngues de concessões minerárias para investidores, em 3 dias.",
+    "fr": "Fiches bilingues de concessions minières pour investisseurs, en 3 jours."
+   },
+   "long": {
+    "es": "cateo. convierte el código de un derecho minero en un informe bilingüe con catastro, geología, satélite y restricciones, presentado como lo leería un inversionista. La IA redacta y una persona revisa y aprueba antes de entregar.",
+    "en": "cateo. turns a mining-right code into a bilingual report with cadastre, geology, satellite and restrictions, presented the way an investor reads it. AI drafts and a person reviews and approves before delivery.",
+    "pt": "A cateo. transforma o código de um direito minerário num relatório bilíngue com cadastro, geologia, satélite e restrições, apresentado como um investidor o leria. A IA redige e uma pessoa revisa e aprova antes da entrega.",
+    "fr": "cateo. transforme le code d’un titre minier en un rapport bilingue avec cadastre, géologie, satellite et restrictions, présenté comme un investisseur le lirait. L’IA rédige et une personne relit et valide avant la livraison."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 64 64\"><path d=\"M45.8 20.4A18 18 0 1 0 45.8 43.6\" fill=\"none\" stroke=\"#F6F2EB\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"34\" cy=\"32\" r=\"6\" fill=\"#F2B544\"/></svg>",
+   "word": "cateo.",
+   "font": "'Schibsted Grotesk','Bricolage Grotesque', sans-serif",
+   "visible": true,
+   "logoPending": false
+  },
+  {
+   "id": "pallaq",
+   "name": "Pallaq",
+   "vertical": "mineria",
+   "bg": "#1E2A5A",
+   "fg": "#FFFFFF",
+   "accent": "#E3A82B",
+   "short": {
+    "es": "Oro con origen: verificación de proveedores mineros según la Guía de la OCDE.",
+    "en": "Gold with an origin: mining-supplier verification per the OECD Guidance.",
+    "pt": "Ouro com origem: verificação de fornecedores conforme o Guia da OCDE.",
+    "fr": "De l’or d’origine connue : vérification des fournisseurs miniers selon le Guide de l’OCDE."
+   },
+   "long": {
+    "es": "Pallaq es la capa de evidencia del oro de la pequeña minería: el minero ordena su expediente gratis desde el celular y el comprador verifica a sus proveedores y descarga un informe de debida diligencia alineado a la Guía de la OCDE. No certifica la legalidad del mineral: ordena la evidencia.",
+    "en": "Pallaq is the evidence layer for small-scale gold: miners organize their file for free from a phone, and buyers verify suppliers and download an OECD-aligned due-diligence report. It does not certify the legality of the ore: it organizes the evidence.",
+    "pt": "A Pallaq é a camada de evidência do ouro da pequena mineração: o minerador organiza seu dossiê de graça pelo celular e o comprador verifica seus fornecedores e baixa um relatório de due diligence alinhado ao Guia da OCDE. Não certifica a legalidade do minério: organiza a evidência.",
+    "fr": "Pallaq est la couche de preuves de l’or de la petite mine : le mineur organise gratuitement son dossier depuis son téléphone, et l’acheteur vérifie ses fournisseurs et télécharge un rapport de diligence raisonnable aligné sur le Guide de l’OCDE. Pallaq ne certifie pas la légalité du minerai : elle organise les preuves."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 209.1 64\"><g><rect width=\"64\" height=\"64\" rx=\"12\" fill=\"#1E2A5A\"/><path d=\"M26 8h12v8h8v8h8v16h-8v8h-8v8H26v-8h-8v-8h-8V24h8v-8h8z\" fill=\"#E3A82B\"/><path d=\"M32 21L43 32L32 43L21 32z\" fill=\"#1E2A5A\"/><path d=\"M32 27.5L36.5 32L32 36.5L27.5 32z\" fill=\"#A3224F\"/></g><path transform=\"translate(80,42)\" d=\"M1.9040000000000001 -19.414H8.874V-13.838000000000001L8.568000000000001 -13.022V-7.582000000000001L8.874 -5.984V5.61H1.9040000000000001ZM6.664000000000001 -9.690000000000001Q7.106000000000001 -12.852 8.517000000000001 -15.147Q9.928 -17.442 12.104000000000001 -18.717Q14.280000000000001 -19.992 17.034000000000002 -19.992Q19.89 -19.992 22.049 -18.700000000000003Q24.208000000000002 -17.408 25.415000000000003 -15.096Q26.622000000000003 -12.784 26.622000000000003 -9.690000000000001Q26.622000000000003 -6.664000000000001 25.415000000000003 -4.335000000000001Q24.208000000000002 -2.0060000000000002 22.049 -0.7310000000000001Q19.89 0.544 17.034000000000002 0.544Q14.280000000000001 0.544 12.104000000000001 -0.7310000000000001Q9.928 -2.0060000000000002 8.534 -4.3180000000000005Q7.140000000000001 -6.630000000000001 6.664000000000001 -9.690000000000001ZM19.618000000000002 -9.690000000000001Q19.618000000000002 -11.152000000000001 19.023000000000003 -12.274000000000001Q18.428 -13.396 17.357 -14.042000000000002Q16.286 -14.688 14.926000000000002 -14.688Q13.532000000000002 -14.688 12.274000000000001 -14.042000000000002Q11.016 -13.396 10.064 -12.274000000000001Q9.112 -11.152000000000001 8.602 -9.690000000000001Q9.112 -8.262 10.064 -7.140000000000001Q11.016 -6.018000000000001 12.274000000000001 -5.389000000000001Q13.532000000000002 -4.760000000000001 14.926000000000002 -4.760000000000001Q16.286 -4.760000000000001 17.357 -5.389000000000001Q18.428 -6.018000000000001 19.023000000000003 -7.140000000000001Q19.618000000000002 -8.262 19.618000000000002 -9.690000000000001Z M45.958 0.0 45.074 -7.0040000000000004 45.992000000000004 -9.690000000000001 45.074 -12.376000000000001 45.958 -19.414H53.166000000000004L51.94200000000001 -9.724L53.166000000000004 0.0ZM47.59 -9.690000000000001Q47.114000000000004 -6.630000000000001 45.703 -4.3180000000000005Q44.292 -2.0060000000000002 42.133 -0.7310000000000001Q39.974000000000004 0.544 37.22 0.544Q34.364000000000004 0.544 32.205000000000005 -0.7310000000000001Q30.046000000000003 -2.0060000000000002 28.822000000000003 -4.335000000000001Q27.598000000000003 -6.664000000000001 27.598000000000003 -9.690000000000001Q27.598000000000003 -12.784 28.822000000000003 -15.096Q30.046000000000003 -17.408 32.205000000000005 -18.700000000000003Q34.364000000000004 -19.992 37.22 -19.992Q39.974000000000004 -19.992 42.133 -18.717Q44.292 -17.442 45.72 -15.147Q47.148 -12.852 47.59 -9.690000000000001ZM34.636 -9.690000000000001Q34.636 -8.262 35.231 -7.140000000000001Q35.826 -6.018000000000001 36.88 -5.389000000000001Q37.934000000000005 -4.760000000000001 39.294000000000004 -4.760000000000001Q40.722 -4.760000000000001 41.980000000000004 -5.389000000000001Q43.238 -6.018000000000001 44.19 -7.140000000000001Q45.142 -8.262 45.618 -9.690000000000001Q45.142 -11.152000000000001 44.19 -12.274000000000001Q43.238 -13.396 41.980000000000004 -14.042000000000002Q40.722 -14.688 39.294000000000004 -14.688Q37.934000000000005 -14.688 36.88 -14.042000000000002Q35.826 -13.396 35.231 -12.274000000000001Q34.636 -11.152000000000001 34.636 -9.690000000000001Z M55.29800000000001 -26.180000000000003H62.26800000000001V0.0H55.29800000000001Z M64.876 -26.180000000000003H71.846V0.0H64.876Z M91.99800000000002 0.0 91.114 -7.0040000000000004 92.03200000000001 -9.690000000000001 91.114 -12.376000000000001 91.99800000000002 -19.414H99.20600000000002L97.98200000000001 -9.724L99.20600000000002 0.0ZM93.63000000000001 -9.690000000000001Q93.15400000000001 -6.630000000000001 91.74300000000001 -4.3180000000000005Q90.33200000000001 -2.0060000000000002 88.173 -0.7310000000000001Q86.01400000000001 0.544 83.26000000000002 0.544Q80.40400000000001 0.544 78.245 -0.7310000000000001Q76.08600000000001 -2.0060000000000002 74.86200000000001 -4.335000000000001Q73.638 -6.664000000000001 73.638 -9.690000000000001Q73.638 -12.784 74.86200000000001 -15.096Q76.08600000000001 -17.408 78.245 -18.700000000000003Q80.40400000000001 -19.992 83.26000000000002 -19.992Q86.01400000000001 -19.992 88.173 -18.717Q90.33200000000001 -17.442 91.76000000000002 -15.147Q93.18800000000002 -12.852 93.63000000000001 -9.690000000000001ZM80.67600000000002 -9.690000000000001Q80.67600000000002 -8.262 81.27100000000002 -7.140000000000001Q81.86600000000001 -6.018000000000001 82.92000000000002 -5.389000000000001Q83.97400000000002 -4.760000000000001 85.33400000000002 -4.760000000000001Q86.76200000000001 -4.760000000000001 88.02000000000001 -5.389000000000001Q89.27800000000002 -6.018000000000001 90.23000000000002 -7.140000000000001Q91.18200000000002 -8.262 91.65800000000002 -9.690000000000001Q91.18200000000002 -11.152000000000001 90.23000000000002 -12.274000000000001Q89.27800000000002 -13.396 88.02000000000001 -14.042000000000002Q86.76200000000001 -14.688 85.33400000000002 -14.688Q83.97400000000002 -14.688 82.92000000000002 -14.042000000000002Q81.86600000000001 -13.396 81.27100000000002 -12.274000000000001Q80.67600000000002 -11.152000000000001 80.67600000000002 -9.690000000000001Z M125.20600000000002 -19.414V5.61H118.27000000000001V-5.984L118.54200000000002 -7.582000000000001V-13.022L118.27000000000001 -13.838000000000001V-19.414ZM120.48000000000002 -9.690000000000001Q120.00400000000002 -6.630000000000001 118.61000000000001 -4.3180000000000005Q117.21600000000001 -2.0060000000000002 115.04000000000002 -0.7310000000000001Q112.86400000000002 0.544 110.11000000000001 0.544Q107.28800000000001 0.544 105.11200000000001 -0.7310000000000001Q102.936 -2.0060000000000002 101.72900000000001 -4.335000000000001Q100.522 -6.664000000000001 100.522 -9.690000000000001Q100.522 -12.784 101.72900000000001 -15.096Q102.936 -17.408 105.11200000000001 -18.700000000000003Q107.28800000000001 -19.992 110.11000000000001 -19.992Q112.86400000000002 -19.992 115.04000000000002 -18.717Q117.21600000000001 -17.442 118.62700000000001 -15.147Q120.03800000000001 -12.852 120.48000000000002 -9.690000000000001ZM107.52600000000001 -9.690000000000001Q107.52600000000001 -8.262 108.12100000000001 -7.140000000000001Q108.71600000000001 -6.018000000000001 109.77000000000001 -5.389000000000001Q110.82400000000001 -4.760000000000001 112.21800000000002 -4.760000000000001Q113.61200000000001 -4.760000000000001 114.87 -5.389000000000001Q116.12800000000001 -6.018000000000001 117.09700000000001 -7.140000000000001Q118.06600000000002 -8.262 118.54200000000002 -9.690000000000001Q118.06600000000002 -11.152000000000001 117.09700000000001 -12.274000000000001Q116.12800000000001 -13.396 114.87 -14.042000000000002Q113.61200000000001 -14.688 112.21800000000002 -14.688Q110.82400000000001 -14.688 109.77000000000001 -14.042000000000002Q108.71600000000001 -13.396 108.12100000000001 -12.274000000000001Q107.52600000000001 -11.152000000000001 107.52600000000001 -9.690000000000001Z\" fill=\"#FFFFFF\"/></svg>",
+   "word": null,
+   "font": "",
+   "visible": true,
+   "logoPending": false
+  },
+  {
+   "id": "prevo",
+   "name": "Prevo",
+   "vertical": "ia",
+   "bg": "#0E1726",
+   "fg": "#F3F6FA",
+   "accent": "#4FD1C5",
+   "short": {
+    "es": "Pronósticos de demanda con IA para decidir cuánto comprar, producir y vender.",
+    "en": "AI demand forecasts to decide how much to buy, make and sell.",
+    "pt": "Previsões de demanda com IA para decidir quanto comprar, produzir e vender.",
+    "fr": "Des prévisions de demande par IA pour décider combien acheter, produire et vendre."
+   },
+   "long": {
+    "es": "Prevo construye modelos de pronóstico de demanda especializados por industria. Convierte el historial de ventas en una vista clara del futuro para que las empresas compren, produzcan y planifiquen con menos quiebres de stock y menos inventario parado.",
+    "en": "Prevo builds industry-specific demand-forecasting models. It turns sales history into a clear view of what’s ahead so companies buy, produce and plan with fewer stockouts and less idle inventory.",
+    "pt": "A Prevo constrói modelos de previsão de demanda especializados por setor. Transforma o histórico de vendas numa visão clara do futuro para que as empresas comprem, produzam e planejem com menos rupturas e menos estoque parado.",
+    "fr": "Prevo conçoit des modèles de prévision de la demande spécialisés par secteur. Il transforme l’historique des ventes en une vision claire de l’avenir pour acheter, produire et planifier avec moins de ruptures et moins de stock dormant."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#4FD1C5\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#0E1726\">P</text></svg>",
+   "word": "Prevo",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "tono",
+   "name": "Tono",
+   "vertical": "ia",
+   "bg": "#141218",
+   "fg": "#F7F3EE",
+   "accent": "#E85D75",
+   "short": {
+    "es": "Voice Packs: haz que cualquier IA escriba con tu voz o la de tu marca.",
+    "en": "Voice Packs: make any AI write in your voice or your brand’s.",
+    "pt": "Voice Packs: faça qualquer IA escrever com a sua voz ou a da sua marca.",
+    "fr": "Voice Packs : faites écrire n’importe quelle IA avec votre voix ou celle de votre marque."
+   },
+   "long": {
+    "es": "Tono captura la voz escrita de una persona o marca a partir de sus propios textos y la empaqueta para que ChatGPT, Claude o Gemini escriban como ella. Los modelos programan cada vez mejor; Tono hace que también escriban bien.",
+    "en": "Tono captures the written voice of a person or brand from their own texts and packages it so ChatGPT, Claude or Gemini write like them. Models code better every day; Tono makes them write well too.",
+    "pt": "A Tono captura a voz escrita de uma pessoa ou marca a partir dos próprios textos e a empacota para que ChatGPT, Claude ou Gemini escrevam como ela. Os modelos programam cada vez melhor; a Tono faz com que também escrevam bem.",
+    "fr": "Tono capte la voix écrite d’une personne ou d’une marque à partir de ses propres textes et l’emballe pour que ChatGPT, Claude ou Gemini écrivent comme elle. Les modèles codent de mieux en mieux ; Tono les aide aussi à bien écrire."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#E85D75\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#141218\">T</text></svg>",
+   "word": "Tono",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "sua",
+   "name": "sua",
+   "vertical": "ia",
+   "bg": "#0F1A14",
+   "fg": "#F2F5EF",
+   "accent": "#8BE28B",
+   "short": {
+    "es": "Deja de alquilar IA: sé dueño de tus modelos.",
+    "en": "Stop renting AI: own your models.",
+    "pt": "Pare de alugar IA: seja dono dos seus modelos.",
+    "fr": "Arrêtez de louer l’IA : possédez vos modèles."
+   },
+   "long": {
+    "es": "sua ayuda a las empresas a dejar de alquilar IA y ser dueñas de sus modelos. Empieza con una auditoría de 5 días que mide el gasto y la calidad de la IA actual, construye evaluaciones propias y prueba modelos abiertos contra el proveedor.",
+    "en": "sua helps companies stop renting AI and own their models. It starts with a 5-day audit that measures current AI spend and quality, builds custom evaluations and tests open models against the vendor.",
+    "pt": "A sua ajuda as empresas a parar de alugar IA e ser donas dos seus modelos. Começa com uma auditoria de 5 dias que mede o gasto e a qualidade da IA atual, constrói avaliações próprias e testa modelos abertos contra o fornecedor.",
+    "fr": "sua aide les entreprises à cesser de louer l’IA et à posséder leurs modèles. Tout commence par un audit de 5 jours qui mesure les coûts et la qualité de l’IA actuelle, construit des évaluations propres et compare des modèles ouverts au fournisseur."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#8BE28B\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#0F1A14\">S</text></svg>",
+   "word": "sua",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "insula",
+   "name": "Insula",
+   "vertical": "ia",
+   "bg": "#0B1220",
+   "fg": "#EEF2F7",
+   "accent": "#38BDF8",
+   "short": {
+    "es": "IA privada instalada en tu infraestructura, sin conexión a la nube.",
+    "en": "Private AI installed in your own infrastructure, with no cloud connection.",
+    "pt": "IA privada instalada na sua infraestrutura, sem conexão com a nuvem.",
+    "fr": "Une IA privée installée dans votre infrastructure, sans connexion au cloud."
+   },
+   "long": {
+    "es": "Insula instala IA privada lista para usar en los servidores o equipos del cliente: modelos abiertos, búsqueda sobre documentos internos y controles de acceso, todo sin conexión a internet. Empieza con organizaciones reguladas medianas de América Latina y EE. UU. (clínicas, estudios jurídicos, notarías y cooperativas financieras) con un paquete de instalación, auditoría y soporte.",
+    "en": "Insula installs ready-to-use private AI on the client’s own servers or machines: open models, search over internal documents and access controls, all without an internet connection. It starts with mid-size regulated organizations in Latin America and the US (clinics, law firms, notaries and financial cooperatives) with an installation, audit and support package.",
+    "pt": "A Insula instala IA privada pronta para usar nos servidores ou equipamentos do cliente: modelos abertos, busca em documentos internos e controles de acesso, tudo sem conexão à internet. Começa com organizações reguladas de porte médio da América Latina e dos EUA (clínicas, escritórios de advocacia, cartórios e cooperativas financeiras) com um pacote de instalação, auditoria e suporte.",
+    "fr": "Insula installe une IA privée prête à l’emploi sur les serveurs ou machines du client : modèles ouverts, recherche dans les documents internes et contrôles d’accès, le tout sans connexion internet. Elle commence par les organisations réglementées de taille moyenne d’Amérique latine et des États-Unis (cliniques, cabinets d’avocats, notaires et coopératives financières) avec une offre d’installation, d’audit et de support."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#38BDF8\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#0B1220\">I</text></svg>",
+   "word": "Insula",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "onstaff",
+   "name": "Onstaff",
+   "vertical": "ia",
+   "bg": "#111827",
+   "fg": "#F9FAFB",
+   "accent": "#F59E0B",
+   "short": {
+    "es": "Automatizaciones con IA listas para usar, con plantillas para América Latina.",
+    "en": "Ready-to-use AI automations, with templates for Latin America.",
+    "pt": "Automações com IA prontas para usar, com modelos para a América Latina.",
+    "fr": "Des automatisations IA prêtes à l’emploi, avec des modèles pour l’Amérique latine."
+   },
+   "long": {
+    "es": "Onstaff es la versión mejorada y regional de rerun.build: automatizaciones con IA que cualquier equipo puede poner en marcha sin programar, con plantillas para las herramientas que usa América Latina y en cuatro idiomas.",
+    "en": "Onstaff is the improved, regional take on rerun.build: AI automations any team can launch without coding, with templates for the tools Latin America uses, in four languages.",
+    "pt": "A Onstaff é a versão melhorada e regional do rerun.build: automações com IA que qualquer equipe coloca em funcionamento sem programar, com modelos para as ferramentas que a América Latina usa, em quatro idiomas.",
+    "fr": "Onstaff est la version améliorée et régionale de rerun.build : des automatisations IA que toute équipe peut lancer sans coder, avec des modèles pour les outils utilisés en Amérique latine, en quatre langues."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#F59E0B\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#111827\">O</text></svg>",
+   "word": "Onstaff",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "fasor",
+   "name": "Fasor",
+   "vertical": "infra",
+   "bg": "#0B1020",
+   "fg": "#F1F4FA",
+   "accent": "#FACC15",
+   "short": {
+    "es": "Radar de plazos y stock de equipos eléctricos y de enfriamiento para data centers.",
+    "en": "A lead-time and stock radar for data-center electrical and cooling equipment.",
+    "pt": "Radar de prazos e estoque de equipamentos elétricos e de refrigeração para data centers.",
+    "fr": "Un radar des délais et des stocks d’équipements électriques et de refroidissement pour data centers."
+   },
+   "long": {
+    "es": "Fasor sigue los plazos de entrega y el stock de transformadores, celdas, UPS y equipos de enfriamiento para data centers, y avisa dónde conseguirlos antes. Responde al cuello de botella de la cadena de suministro de la IA.",
+    "en": "Fasor tracks lead times and stock for transformers, switchgear, UPS and cooling equipment for data centers, and flags where to source them sooner. It tackles the supply-chain bottleneck of AI.",
+    "pt": "A Fasor acompanha prazos de entrega e estoque de transformadores, cubículos, UPS e equipamentos de refrigeração para data centers, e avisa onde consegui-los antes. Responde ao gargalo da cadeia de suprimentos da IA.",
+    "fr": "Fasor suit les délais de livraison et les stocks de transformateurs, cellules, onduleurs et équipements de refroidissement pour data centers, et indique où les obtenir plus tôt. Il s’attaque au goulot d’étranglement de la chaîne d’approvisionnement de l’IA."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#FACC15\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#0B1020\">F</text></svg>",
+   "word": "Fasor",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "ferro",
+   "name": "Ferro",
+   "vertical": "infra",
+   "bg": "#121316",
+   "fg": "#F4F4F2",
+   "accent": "#C0C7D1",
+   "short": {
+    "es": "Datos, modelos y originación para financiar robots, GPUs y data centers.",
+    "en": "Data, models and origination to finance robots, GPUs and data centers.",
+    "pt": "Dados, modelos e originação para financiar robôs, GPUs e data centers.",
+    "fr": "Données, modèles et origination pour financer robots, GPU et data centers."
+   },
+   "long": {
+    "es": "Ferro es la capa de datos y modelos que necesita el capital para financiar la construcción física de la IA: valúa robots, GPUs y data centers, mide su riesgo y origina operaciones para financiarlos. Un Wall Street para la infraestructura de la IA.",
+    "en": "Ferro is the data and model layer capital needs to finance the physical build-out of AI: it values robots, GPUs and data centers, measures their risk and originates deals to fund them. A Wall Street for AI infrastructure.",
+    "pt": "A Ferro é a camada de dados e modelos de que o capital precisa para financiar a construção física da IA: avalia robôs, GPUs e data centers, mede seu risco e origina operações para financiá-los. Um Wall Street para a infraestrutura da IA.",
+    "fr": "Ferro est la couche de données et de modèles dont le capital a besoin pour financer la construction physique de l’IA : elle valorise robots, GPU et data centers, mesure leur risque et origine des opérations pour les financer. Un Wall Street pour l’infrastructure de l’IA."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#C0C7D1\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#121316\">F</text></svg>",
+   "word": "Ferro",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "alaprima",
+   "name": "alaprima",
+   "vertical": "gobierno",
+   "bg": "#102A2A",
+   "fg": "#F3F7F5",
+   "accent": "#34D399",
+   "short": {
+    "es": "Pre-revisión con IA de expedientes de permisos y licencias municipales.",
+    "en": "AI pre-review of municipal permit and license files.",
+    "pt": "Pré-revisão com IA de processos de alvarás e licenças municipais.",
+    "fr": "Pré-vérification par IA des dossiers de permis et licences municipaux."
+   },
+   "long": {
+    "es": "alaprima revisa con IA los expedientes de permisos y licencias antes de presentarlos, para que salgan aprobados a la primera. Empieza por arquitectos, contratistas, emprendedores y gestores, y luego lleva la misma revisión a las municipalidades.",
+    "en": "alaprima uses AI to review permit and license files before they are submitted, so they get approved on the first try. It starts with architects, contractors, entrepreneurs and expediters, then brings the same review to municipalities.",
+    "pt": "A alaprima revisa com IA os processos de alvarás e licenças antes de protocolá-los, para que sejam aprovados de primeira. Começa por arquitetos, empreiteiros, empreendedores e despachantes, e depois leva a mesma revisão às prefeituras.",
+    "fr": "alaprima vérifie par IA les dossiers de permis et de licences avant leur dépôt, pour qu’ils soient approuvés du premier coup. Elle commence par les architectes, entrepreneurs, porteurs de projet et mandataires, puis apporte la même vérification aux municipalités."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#34D399\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#102A2A\">A</text></svg>",
+   "word": "alaprima",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "dossi",
+   "name": "Dossi",
+   "vertical": "gobierno",
+   "bg": "#1B1530",
+   "fg": "#F6F3FF",
+   "accent": "#A78BFA",
+   "short": {
+    "es": "Expedientes de ingresos listos para renovar Medicaid, SNAP y vivienda en EE. UU.",
+    "en": "Income files ready to renew Medicaid, SNAP and housing benefits in the US.",
+    "pt": "Dossiês de renda prontos para renovar Medicaid, SNAP e moradia nos EUA.",
+    "fr": "Des dossiers de revenus prêts pour renouveler Medicaid, SNAP et les aides au logement aux États-Unis."
+   },
+   "long": {
+    "es": "Dossi convierte capturas de apps, extractos bancarios y facturas en un expediente de ingresos ordenado, listo para presentar en las renovaciones de Medicaid, SNAP y vivienda en Estados Unidos. Menos rechazos por papeles y menos beneficios perdidos.",
+    "en": "Dossi turns app screenshots, bank statements and invoices into an organized income file, ready for Medicaid, SNAP and housing renewals in the United States. Fewer paperwork rejections and fewer lost benefits.",
+    "pt": "A Dossi transforma capturas de apps, extratos e faturas num dossiê de renda organizado, pronto para as renovações de Medicaid, SNAP e moradia nos Estados Unidos. Menos recusas por papelada e menos benefícios perdidos.",
+    "fr": "Dossi transforme captures d’applications, relevés bancaires et factures en un dossier de revenus ordonné, prêt pour les renouvellements de Medicaid, SNAP et des aides au logement aux États-Unis. Moins de refus administratifs et moins d’aides perdues."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#A78BFA\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#1B1530\">D</text></svg>",
+   "word": "Dossi",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "ampli",
+   "name": "Ampli",
+   "vertical": "salud",
+   "bg": "#1A1020",
+   "fg": "#FFF5F7",
+   "accent": "#FF6F91",
+   "short": {
+    "es": "Personas capaces haciendo trabajo de especialista con IA: apelaciones de reclamos médicos.",
+    "en": "Capable people doing specialist work with AI: medical claim appeals.",
+    "pt": "Pessoas capazes fazendo trabalho de especialista com IA: recursos de glosas médicas.",
+    "fr": "Des personnes compétentes qui font un travail d’expert avec l’IA : recours contre les refus de remboursement médical."
+   },
+   "long": {
+    "es": "Ampli forma a personas capaces, sin credencial, para hacer trabajo de especialista con ayuda de IA. Su primer oficio es apelar reclamos médicos negados en Estados Unidos para clínicas pequeñas, que pierden ingresos por falta de tiempo y personal.",
+    "en": "Ampli trains capable people without credentials to do specialist work with AI. Its first trade is appealing denied medical claims in the United States for small clinics that lose revenue for lack of time and staff.",
+    "pt": "A Ampli forma pessoas capazes, sem credencial, para fazer trabalho de especialista com IA. Seu primeiro ofício é recorrer de glosas médicas negadas nos Estados Unidos para clínicas pequenas, que perdem receita por falta de tempo e pessoal.",
+    "fr": "Ampli forme des personnes compétentes, sans diplôme spécialisé, à réaliser un travail d’expert avec l’IA. Son premier métier : contester les refus de remboursement médical aux États-Unis pour les petites cliniques, qui perdent des revenus faute de temps et de personnel."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#FF6F91\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#1A1020\">A</text></svg>",
+   "word": "Ampli",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "orbe",
+   "name": "orbe",
+   "vertical": "espacio",
+   "bg": "#0D1330",
+   "fg": "#F2F4F8",
+   "accent": "#FF5A1F",
+   "short": {
+    "es": "Qué construir cuando el espacio sea barato: radar de la economía orbital.",
+    "en": "What to build when space gets cheap: a radar for the orbital economy.",
+    "pt": "O que construir quando o espaço ficar barato: radar da economia orbital.",
+    "fr": "Que construire quand l’espace deviendra bon marché : un radar de l’économie orbitale."
+   },
+   "long": {
+    "es": "orbe es un radar y estudio de fundación para la economía orbital: calcula, para cada negocio espacial, el precio de lanzamiento por kilo al que empieza a ganar dinero. Ayuda a fundadores e inversionistas a decidir qué construir y cuándo.",
+    "en": "orbe is a radar and founding studio for the orbital economy: for each space business it calculates the launch price per kilo at which it starts making money. It helps founders and investors decide what to build and when.",
+    "pt": "A orbe é um radar e estúdio de fundação para a economia orbital: calcula, para cada negócio espacial, o preço de lançamento por quilo a partir do qual ele dá lucro. Ajuda fundadores e investidores a decidir o que construir e quando.",
+    "fr": "orbe est un radar et un studio de création pour l’économie orbitale : pour chaque activité spatiale, il calcule le prix de lancement au kilo à partir duquel elle devient rentable. Il aide fondateurs et investisseurs à décider quoi construire et quand."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#FF5A1F\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#0D1330\">O</text></svg>",
+   "word": "orbe",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  },
+  {
+   "id": "provena",
+   "name": "Provena",
+   "vertical": "robotica",
+   "bg": "#14171C",
+   "fg": "#F5F5F2",
+   "accent": "#FF7A45",
+   "short": {
+    "es": "Mapa de proveedores de componentes robóticos y calculadora de contenido nacional.",
+    "en": "A map of robotics-component suppliers and a domestic-content calculator.",
+    "pt": "Mapa de fornecedores de componentes robóticos e calculadora de conteúdo nacional.",
+    "fr": "Une carte des fournisseurs de composants robotiques et un calculateur de contenu national."
+   },
+   "long": {
+    "es": "Provena mapea a los proveedores de componentes para robots y calcula, a partir de la lista de materiales, cuánto contenido nacional tiene un producto. Ayuda a fabricantes a cumplir requisitos de origen y a encontrar proveedores alternativos.",
+    "en": "Provena maps robotics-component suppliers and calculates, from the bill of materials, how much domestic content a product has. It helps manufacturers meet origin requirements and find alternative suppliers.",
+    "pt": "A Provena mapeia fornecedores de componentes para robôs e calcula, a partir da lista de materiais, quanto conteúdo nacional um produto tem. Ajuda fabricantes a cumprir requisitos de origem e a encontrar fornecedores alternativos.",
+    "fr": "Provena cartographie les fournisseurs de composants robotiques et calcule, à partir de la nomenclature, la part de contenu national d’un produit. Elle aide les fabricants à respecter les exigences d’origine et à trouver des fournisseurs alternatifs."
+   },
+   "url": "",
+   "logo": "<svg viewBox=\"0 0 48 48\"><rect x=\"2\" y=\"2\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#FF7A45\"/><text x=\"24\" y=\"33\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, Arial, sans-serif\" font-weight=\"800\" font-size=\"26\" fill=\"#14171C\">P</text></svg>",
+   "word": "Provena",
+   "font": "'Bricolage Grotesque',sans-serif",
+   "visible": true,
+   "logoPending": true
+  }
+ ],
+ "partners": []
+}
